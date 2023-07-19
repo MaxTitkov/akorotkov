@@ -71,3 +71,11 @@ p.article-content{
     display: none;
   }
 }
+
+.contacts-content p, a{
+	font-size: 22px;
+}
+
+.clinic-link{
+	font-size: 12px!important;
+}
