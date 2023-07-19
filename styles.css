@@ -53,9 +53,21 @@ p.article-content{
 	margin-bottom: 30px;
 }
 
+.navbar-phone{
+	color: black;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
 @media screen and (max-width: 768px) {
   .brand-container {
     margin-left: 5%;
     margin-top: 2%;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  #hideWide {
+    display: none;
   }
 }
