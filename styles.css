@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "HandWritten";
+  src: url("Pacifico/Pacifico-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "WideFont";
+  src: url("Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+.navbar-item{
+	margin: 0px 45px;
+	text-transform: uppercase;
+	font-family: "WideFont", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h1.brand-title {
+  font-family: "HandWritten", sans-serif;
+  font-size: 180%;
+}
+
+p.brand-title-small{
+	font-size: 90%;
+	margin-top: -2px;
+}
+
+.hero-body {
+  background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,212,212,0.3) 100%), url('https://previews.123rf.com/images/georgerudy/georgerudy1605/georgerudy160500395/56379784-handsome-middle-aged-pediatrician-is-sounding-little-girl-lungs-cute-girl-and-her-beautiful-mother.jpg');
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(10%);
+}
+
+h1.hero-text{
+	color: white!important;
+	font-family: "WideFont", sans-serif;
+}
+
+h1.title{
+	margin-top: 30px;
+}
+
+p.article-content{
+	margin-bottom: 50px;
+}
+
+.map-section{
+	margin-left: -30px;
+}
+
+.contacts-title{
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-container {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+}
