@@ -27,7 +27,7 @@ p.brand-title-small{
 
 .hero-body {
   /* background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,212,212,0.0) 100%), url('../akorotkov/src/teaser.JPG'); */
-  background-image: url('./src/teaser.JPG');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/gifts-5b521.appspot.com/o/korotokv%2Fteaser.JPG?alt=media&token=32dc0135-5667-4347-be90-e06328e004e8');
   background-size: cover;
   background-position: center center;
   filter: grayscale(10%);
