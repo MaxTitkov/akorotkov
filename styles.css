@@ -26,10 +26,19 @@ p.brand-title-small{
 }
 
 .hero-body {
-  background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,212,212,0.3) 100%), url('https://previews.123rf.com/images/georgerudy/georgerudy1605/georgerudy160500395/56379784-handsome-middle-aged-pediatrician-is-sounding-little-girl-lungs-cute-girl-and-her-beautiful-mother.jpg');
+  /* background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,212,212,0.0) 100%), url('../akorotkov/src/teaser.JPG'); */
+  background-image: url('../akorotkov/src/teaser.JPG');
   background-size: cover;
   background-position: center center;
   filter: grayscale(10%);
+}
+
+.teaser-text{
+	position: relative;
+	top: 270px;
+	background-color: rgba(51, 51, 51, 0.89);
+	/* padding: 10rem 1.5rem!important; */
+	padding-bottom: 10px!important;
 }
 
 h1.hero-text{
@@ -63,6 +72,14 @@ p.article-content{
   .brand-container {
     margin-left: 5%;
     margin-top: 2%;
+  }
+  .teaser-text{
+	top: 80px;
+	left: -10px;
+	width: 74vw;
+  }
+  .subtitle.is-3{
+	font-size: 1rem!important;
   }
 }
 
