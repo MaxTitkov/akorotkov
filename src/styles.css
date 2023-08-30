@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "HandWritten";
+  src: url("Pacifico/Pacifico-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "WideFont";
+  src: url("Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+.navbar-item{
+	margin: 0px 45px;
+	text-transform: uppercase;
+	font-family: "WideFont", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h1.brand-title {
+  font-family: "HandWritten", sans-serif;
+  font-size: 180%;
+}
+
+p.brand-title-small{
+	font-size: 90%;
+	margin-top: -2px;
+}
+
+.hero-body {
+  /* background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,212,212,0.0) 100%), url('../akorotkov/src/teaser.JPG'); */
+  background-image: url('./src/teaser.JPG');
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(10%);
+}
+
+.teaser-text{
+	position: relative;
+	top: 270px;
+	background-color: rgba(51, 51, 51, 0.89);
+	/* padding: 10rem 1.5rem!important; */
+	padding-bottom: 10px!important;
+}
+
+h1.hero-text{
+	color: white!important;
+	font-family: "WideFont", sans-serif;
+}
+
+h1.title{
+	margin-top: 30px;
+}
+
+p.article-content{
+	margin-bottom: 50px;
+}
+
+.map-section{
+	margin-left: -30px;
+}
+
+.contacts-title{
+	margin-bottom: 30px;
+}
+
+.navbar-phone{
+	color: black;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-container {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .teaser-text{
+	top: 80px;
+	left: -10px;
+	width: 74vw;
+  }
+  .subtitle.is-3{
+	font-size: 1rem!important;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  #hideWide {
+    display: none;
+  }
+}
+
+.contacts-content p, a{
+	font-size: 22px;
+}
+
+.clinic-link{
+	font-size: 12px!important;
+}
