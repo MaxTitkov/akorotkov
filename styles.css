@@ -25,12 +25,17 @@ p.brand-title-small{
 	margin-top: -2px;
 }
 
+.articles-container{
+	margin-top: 90px;
+}
+
 .hero-body {
   /* background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,212,212,0.0) 100%), url('../akorotkov/src/teaser.JPG'); */
   background-image: url('https://firebasestorage.googleapis.com/v0/b/gifts-5b521.appspot.com/o/korotokv%2Fteaser-gigapixel-standard-scale-2_00x.webp?alt=media&token=d72dde68-1711-4486-9655-b035aa0f9af8');
   background-size: cover;
   background-position: center center;
-/*   filter: grayscale(10%); */
+  height: 300px;
+  /* filter: grayscale(10%); */
 }
 
 .teaser-text{
@@ -81,6 +86,19 @@ p.article-content{
   .subtitle.is-3{
 	font-size: 1rem!important;
   }
+  .hero-body {
+	/* background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(212,212,212,0.0) 100%), url('../akorotkov/src/teaser.JPG'); */
+	background-image: url('https://firebasestorage.googleapis.com/v0/b/gifts-5b521.appspot.com/o/korotokv%2Fteaser_mobile-gigapixel-standard-scale-2_00x-transformed.webp?alt=media&token=39847a5b-f051-4b5f-b7b5-96e23003bc22');
+	background-size: cover;
+	background-position: center center;
+	/* filter: grayscale(10%); */
+  }
+  .articles-container{
+	margin-top: -50px;
+	}
+	.mobile-photo-description{
+		margin-top: -5px!important;
+	}
 }
 
 @media only screen and (min-width: 1026px) {
