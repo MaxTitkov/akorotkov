@@ -30,7 +30,7 @@ p.brand-title-small{
   background-image: url('https://firebasestorage.googleapis.com/v0/b/gifts-5b521.appspot.com/o/korotokv%2Fteaser-gigapixel-standard-scale-2_00x.webp?alt=media&token=d72dde68-1711-4486-9655-b035aa0f9af8');
   background-size: cover;
   background-position: center center;
-  filter: grayscale(10%);
+/*   filter: grayscale(10%); */
 }
 
 .teaser-text{
