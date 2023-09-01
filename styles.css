@@ -20,7 +20,7 @@
 }
 
 h1.brand-title {
-  font-family: "HandWritten", sans-serif;
+  font-family: "HandWritten", sans-serif!important;
   font-size: 180%;
 }
 
