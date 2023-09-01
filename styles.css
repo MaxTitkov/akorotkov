@@ -1,14 +1,18 @@
 @font-face {
   font-family: "HandWritten";
-  src: url("Pacifico/Pacifico-Regular.ttf") format("truetype");
+  src: url("src/Pacifico/Pacifico-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "WideFont";
-  src: url("Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+  src: url("src/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
 }
+@font-face {
+	font-family: "MainFont";
+	src: url("src/Golos_Text/GolosText-VariableFont_wght.ttf") format("truetype");
+  }
 
 .navbar-item{
-	margin: 0px 45px;
+	margin: 0px 40px;
 	text-transform: uppercase;
 	font-family: "WideFont", sans-serif;
 	font-weight: bold;
@@ -36,6 +40,10 @@ p.brand-title-small{
   background-position: center center;
   height: 300px;
   /* filter: grayscale(10%); */
+}
+
+p, h1, h2, h3, h4, h5, a, .footer-elem{
+	font-family: "MainFont", sans-serif!important;
 }
 
 .teaser-text{
