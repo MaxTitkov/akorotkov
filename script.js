@@ -5,9 +5,17 @@ const educationFooterLink = document.getElementById("speciality-link-footer");
 const specialityLink = document.getElementById("speciality-link");
 const contactsLink = document.getElementById("contacts-link");
 
+const burger = document.querySelector('.burger');
+const menu = document.querySelector('#'+burger.dataset.target);
+
+const toggleMenu = () => {
+  burger.classList.toggle('is-active');
+  menu.classList.toggle('is-active');
+}
 
 // scroll to about
 aboutLink.addEventListener("click", function(event) {
+  toggleMenu()
   event.preventDefault(); // Prevent the default link behavior
 
   const element = document.getElementById("about-article");
@@ -16,6 +24,7 @@ aboutLink.addEventListener("click", function(event) {
 
 // scroll to education
 educationLink.addEventListener("click", function(event) {
+  toggleMenu()
   event.preventDefault(); // Prevent the default link behavior
 
   const element = document.getElementById("education-article");
@@ -24,6 +33,7 @@ educationLink.addEventListener("click", function(event) {
 
 // scroll to speciality
 specialityLink.addEventListener("click", function(event) {
+  toggleMenu()
   event.preventDefault(); // Prevent the default link behavior
 
   const element = document.getElementById("speciality-article");
@@ -32,6 +42,7 @@ specialityLink.addEventListener("click", function(event) {
 
 // scroll to contacts
 contactsLink.addEventListener("click", function(event) {
+  toggleMenu()
   event.preventDefault(); // Prevent the default link behavior
 
   const element = document.getElementById("contacts-article");
